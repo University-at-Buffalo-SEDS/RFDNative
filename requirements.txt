@@ -1,0 +1,2 @@
+# POSIX serial uses Python's standard library. Windows COM ports use pyserial.
+pyserial==3.5; sys_platform == "win32"
